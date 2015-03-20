@@ -1,0 +1,190 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ h1,h2,h3,li{
+	font-family: 'wire one' , sans-serif !important;
+	font-size: 2em;
+}
+
+p {
+	font-family: 'raleway' , sans-serif !important;
+	color:#484949;
+}
+/*----------------------------------------------------------------------------------------------------------------------
+													HEADER
+-----------------------------------------------------------------------------------------------------------------------*/
+
+#menu-button {
+	top: 1em;
+	left: 1em;
+}
+
+.glyphicon  {
+	font-size: 2em;
+	color:#607276;
+}
+
+.glyphicon:hover{
+	cursor:pointer;
+	color:#ffffff;
+}
+
+
+#masthead-title {
+	text-align: center;
+	margin:14.5% 10%;
+	text-transform: uppercase;
+}
+
+#masthead-title h1 {
+	font-size: 10em;
+}
+
+#masthead-title h2 {
+	font-size: 3em;
+}
+
+#masthead-title span {
+	margin:0 0.3em;
+	font-weight: 600;
+}
+
+#portrait-thumbnail-1 {
+	background: url('https://unsplash.imgix.net/photo-1414490929659-9a12b7e31907?q=75&fm=jpg&s=f838066e7aa9eab9d1ccc28fd5ec9574');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#portrait-thumbnail-2 {
+	background: url('https://unsplash.imgix.net/reserve/NxxLccbqQdGtNc7xJ43e_ancestral-home.jpg?q=75&fm=jpg&s=f20accdc67997ab19731ec0faa5ea1e7');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#portrait-thumbnail-3 {
+	background: url('https://unsplash.imgix.net/reserve/URG2BbWQQ9SAcqLuTOLp_BP7A9947.jpg?q=75&fm=jpg&s=604dc379bd8749d90ca2b9c8ec270f63');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#go-down {
+	margin:22em 50% 0;
+}
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------
+													NAV-BAR
+-----------------------------------------------------------------------------------------------------------------------*/
+#nav-bar {
+	display: none;
+	background-color: #242830;
+}
+
+#nav-bar ul {
+	margin: 1em 25%;
+	margin-bottom: 4em;
+}
+
+#nav-bar li {
+	border-bottom: 2px solid #607276;
+	padding: 0.6em;
+	color: #607276;
+}
+
+#nav-bar a {
+	color:inherit;
+}
+
+#nav-bar li:hover {
+	cursor: pointer;
+	border-bottom: 2px solid #ffffff;
+	color:#ffffff;
+}
+
+.navbar {
+	margin-bottom: 0 !important;
+}
+
+
+#masthead-title,#go-down,#menu-button {
+	position: absolute;
+	z-index: 50;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------
+													CONTENT
+-----------------------------------------------------------------------------------------------------------------------*/
+#about-me {
+	margin: 10% 25%;
+	line-height: 2em;
+	font-weight: 500;
+	letter-spacing: 1px;
+	font-size: 1.2em;
+}
+
+#about-me span {
+	font-weight: 800;
+	font-size:1.3em; 
+	text-transform: capitalize;
+}
+
+#work-skills {
+	height: 350px;
+}
+/*-----------------------------------------------------------------------------------------------------------------------
+													FOOTER
+-----------------------------------------------------------------------------------------------------------------------*/
+
+#contact{
+	text-align: center;
+}
+
+#contact-list li {
+	display: inline;
+} 
