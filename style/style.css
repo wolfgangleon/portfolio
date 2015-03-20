@@ -51,6 +51,11 @@ p {
 	font-family: 'raleway' , sans-serif !important;
 	color:#484949;
 }
+
+#contact,#header,#content{
+	text-align: center;
+}
+
 /*----------------------------------------------------------------------------------------------------------------------
 													HEADER
 -----------------------------------------------------------------------------------------------------------------------*/
@@ -112,7 +117,7 @@ p {
 }
 
 #go-down {
-	margin:22em 50% 0;
+	margin:20em 0;
 }
 
 
@@ -161,7 +166,7 @@ p {
 													CONTENT
 -----------------------------------------------------------------------------------------------------------------------*/
 #about-me {
-	margin: 10% 25%;
+	margin: 5% 25%;
 	line-height: 2em;
 	font-weight: 500;
 	letter-spacing: 1px;
@@ -177,14 +182,29 @@ p {
 #work-skills {
 	height: 350px;
 }
+
+
+#carousel-work-skills .carousel-inner {
+	background-color: #242830;
+	height: 30em;
+}
+
+#carousel-work-skills .skill-thumbnail {
+	height: 20em !important;
+	margin: 4em auto;
+}
 /*-----------------------------------------------------------------------------------------------------------------------
 													FOOTER
 -----------------------------------------------------------------------------------------------------------------------*/
-
-#contact{
-	text-align: center;
+#contact {
+	margin-top: 6em;
 }
-
 #contact-list li {
 	display: inline;
 } 
+
+#go-top {
+	padding: 0.5em 0;
+	width: 100%;
+	background-color: #242830;
+}

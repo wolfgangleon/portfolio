@@ -3,13 +3,11 @@ $(document).ready(function(){
 
 	$('.portrait-thumbnail').height( $(window).height() )
 
-	$('#menu-button').on('click',function(){
-		$(this).toggleClass('glyphicon-remove');
+	$('#menu-button').on('click', function(){
 	    $('#nav-bar').slideToggle(800);
-	    $()
 	});
 
-	$('#carousel-portrait').carousel({
+	$('#carousel-portrait, #carousel-work-skills').carousel({
 		interval:4000
 	})
 
@@ -22,6 +20,12 @@ $(document).ready(function(){
 	$('#contact-link').on('click', function() {
 		$('html, body').animate({ 
 	      scrollTop: $('#contact').offset().top 
+	  	}, 1500);
+	});
+
+	$('#aboutMe-link').on('click', function() {
+		$('html, body').animate({ 
+	      scrollTop: $('#about-me').offset().top 
 	  	}, 1500);
 	});
 	
