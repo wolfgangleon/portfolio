@@ -56,6 +56,7 @@ p {
 	text-align: center;
 }
 
+
 /*----------------------------------------------------------------------------------------------------------------------
 													HEADER
 -----------------------------------------------------------------------------------------------------------------------*/
@@ -77,9 +78,20 @@ p {
 
 
 #masthead-title {
+	top:10em;
 	text-align: center;
-	margin:14.5% 10%;
+	margin:0 10%;
 	text-transform: uppercase;
+}
+
+@media only screen and (max-width: 500px) {
+    #masthead-title h1 {
+        font-size: 5em;
+    }
+
+    #masthead-title h2 {
+    	font-size: 1.5em;
+    }
 }
 
 #masthead-title h1 {
@@ -117,7 +129,7 @@ p {
 }
 
 #go-down {
-	margin:20em 0;
+	top:22em;
 }
 
 
@@ -157,7 +169,7 @@ p {
 }
 
 
-#go-down,#menu-button {
+#masthead-title, #go-down,#menu-button {
 	position: absolute;
 	z-index: 50;
 }
