@@ -157,7 +157,7 @@ p {
 }
 
 
-#masthead-title,#go-down,#menu-button {
+#go-down,#menu-button {
 	position: absolute;
 	z-index: 50;
 }
