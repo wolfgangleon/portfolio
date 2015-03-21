@@ -3,6 +3,8 @@ $(document).ready(function(){
 
 	$('.portrait-thumbnail').height( $(window).height() )
 
+	$('#go-down').css('top',  $(window).height()+'em' - 2 +'em'   )
+
 	$('#menu-button').on('click', function(){
 	    $('#nav-bar').slideToggle(800);
 	});

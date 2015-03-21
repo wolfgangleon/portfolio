@@ -84,16 +84,6 @@ p {
 	text-transform: uppercase;
 }
 
-@media only screen and (max-width: 500px) {
-    #masthead-title h1 {
-        font-size: 5em;
-    }
-
-    #masthead-title h2 {
-    	font-size: 1.5em;
-    }
-}
-
 #masthead-title h1 {
 	font-size: 10em;
 }
