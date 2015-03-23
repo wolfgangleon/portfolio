@@ -1,22 +1,21 @@
 $(document).ready(function(){
 
+	// Header screen sizing --->
+	var screenHeight = $(window).height();
 
-	$('.portrait-thumbnail').height( $(window).height() )
+	$('.portrait-thumbnail').height( screenHeight ) //Set screen size
 
-	$('#go-down').css('top',  $(window).height()+'em' - 2 +'em'   )
+	$('.masthead-title').css('top', screenHeight/3.5 ) // Center title 
 
-	$('#menu-button').on('click', function(){
-	    $('#nav-bar').slideToggle(800);
-	});
-
-	$('#carousel-portrait, #carousel-work-skills').carousel({
-		interval:4000
-	})
-
-	$('#go-down').on('click', function() {
+	$('#go-down').css('top', screenHeight- 85 ).on('click', function() { // center glyphicon to go down
 		$('html, body').animate({ 
 	      scrollTop: $('#content').offset().top 
 	  	}, 1500);
+	}); // <----
+
+	// Navigation Bar ---> 
+	$('#menu-button').on('click', function(){
+	    $('#nav-bar').slideToggle(800);
 	});
 
 	$('#contact-link').on('click', function() {
@@ -29,7 +28,16 @@ $(document).ready(function(){
 		$('html, body').animate({ 
 	      scrollTop: $('#about-me').offset().top 
 	  	}, 1500);
-	});
+	}); // <----
+
+	// Carousel --->
+	$('#carousel-portrait, #carousel-work-skills').carousel({
+		interval:4000
+	})
+
+	
+
+	
 	
 
 

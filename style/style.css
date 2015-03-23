@@ -77,22 +77,22 @@ p {
 }
 
 
-#masthead-title {
+.masthead-title {
 	top:10em;
 	text-align: center;
 	margin:0 10%;
 	text-transform: uppercase;
 }
 
-#masthead-title h1 {
+.masthead-title h1 {
 	font-size: 10em;
 }
 
-#masthead-title h2 {
+.masthead-title h2 {
 	font-size: 3em;
 }
 
-#masthead-title span {
+.masthead-title span {
 	margin:0 0.3em;
 	font-weight: 600;
 }
@@ -118,12 +118,10 @@ p {
 	background-position: center;
 }
 
-#go-down {
-	top:22em;
+.masthead-title, #go-down,#menu-button {
+	position: absolute;
+	z-index: 50;
 }
-
-
-
 
 /*-----------------------------------------------------------------------------------------------------------------------
 													NAV-BAR
@@ -156,12 +154,6 @@ p {
 
 .navbar {
 	margin-bottom: 0 !important;
-}
-
-
-#masthead-title, #go-down,#menu-button {
-	position: absolute;
-	z-index: 50;
 }
 
 /*-----------------------------------------------------------------------------------------------------------------------
