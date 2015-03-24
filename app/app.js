@@ -21,19 +21,19 @@ $(document).ready(function(){
 	$('#contact-link').on('click', function() {
 		$('html, body').animate({ 
 	      scrollTop: $('#contact').offset().top 
-	  	}, 1500);
+	  	}, 2800);
 	});
 
 	$('#aboutMe-link').on('click', function() {
 		$('html, body').animate({ 
 	      scrollTop: $('#about-me').offset().top 
-	  	}, 1500);
+	  	}, 2800);
 	}); // <----
 
 	// Carousel --->
 	$('#carousel-portrait, #carousel-work-skills').carousel({
 		interval:5000
-	},'pause')
+	})
 
 	
 
