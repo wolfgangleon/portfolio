@@ -159,6 +159,12 @@ p {
 /*-----------------------------------------------------------------------------------------------------------------------
 													CONTENT
 -----------------------------------------------------------------------------------------------------------------------*/
+span {
+	font-weight: 800;
+	font-size:1.3em; 
+	text-transform: capitalize;
+}
+
 #about-me,#quote {
 	line-height: 2em;
 	font-weight: 500;
@@ -169,32 +175,6 @@ p {
 #about-me {
 	margin: 5% 25%;
 }
-
-#quote {
-	margin-top: 6em;
-	padding-top: 4em;
-	padding-bottom: 4em;
-	box-shadow: 0px 1px 5px;
-	width: 100%;
-}
-
-#quote h2 {
-	font-size: 2em;
-	font-weight: 600;
-}
-
-#quote p {
-	margin: 0 25%;
-	font-size: 1.1em;
-}
-
-
-span {
-	font-weight: 800;
-	font-size:1.3em; 
-	text-transform: capitalize;
-}
-
 
 #carousel-work-skills .carousel-inner {
 	background-color: #242830;
@@ -216,6 +196,33 @@ span {
 	margin:20%;
 	letter-spacing: 1px;
 }
+
+#quote {
+	margin-top: 6em;
+	padding-top: 4em;
+	padding-bottom: 4em;
+	box-shadow: 0px 1px 5px;
+	width: 100%;
+	color: #484949;
+}
+
+#quote h2 {
+	margin-top: 0;
+	font-size: 2.5em;
+	font-weight: 800;
+}
+
+#quote p {
+	margin: 0 25%;
+	font-size: 1.1em;
+}
+
+#work {
+	margin-top: 6em;
+}
+
+
+
 /*-----------------------------------------------------------------------------------------------------------------------
 													FOOTER
 -----------------------------------------------------------------------------------------------------------------------*/
