@@ -28,17 +28,28 @@ $(document).ready(function(){
 		$('html, body').animate({ 
 	      scrollTop: $('#about-me').offset().top 
 	  	}, 2800);
+	});
+
+	$('#work-link').on('click', function() {
+		$('html, body').animate({ 
+	      scrollTop: $('#work').offset().top 
+	  	}, 2800);
 	}); // <----
 
 	// Carousel --->
 	$('#carousel-portrait, #carousel-work-skills').carousel({
 		interval:5000
-	})
+	});
 
+	//masonry for latest work --->
+	var container = $('#project-thumbnail');
 	
-
-	
-	
-
+	container.imagesLoaded( function(){ 
+		container.masonry({
+	 		columnWidth:310,
+	    	itemSelector: '.item',
+	    	isFitWidth: true
+		});
+	});
 
 }); //End document script
