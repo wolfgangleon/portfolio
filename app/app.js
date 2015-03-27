@@ -36,6 +36,10 @@ $(document).ready(function(){
 	  	}, 2800);
 	}); // <----
 
+	$('#menu-button').on('click',function(){
+		$('#menu-button h3').toggleClass('hidden')
+	})
+
 	// Carousel --->
 	$('#carousel-portrait, #carousel-work-skills').carousel({
 		interval:5000
