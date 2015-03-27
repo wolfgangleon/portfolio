@@ -70,6 +70,13 @@ i,h1,h2,p {
 	left: 1em;
 }
 
+#menu-button h3 {
+	position: absolute;
+	top:-0.75em;
+	left: 1.2em;
+	font-size: 1.2em;
+}
+
 .glyphicon  {
 	font-size: 2em;
 	color:#607276;
