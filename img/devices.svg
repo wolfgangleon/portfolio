@@ -1,20 +1,19 @@
-<svg width="71" height="60" xmlns="http://www.w3.org/2000/svg">
+<svg width="290" height="280" xmlns="http://www.w3.org/2000/svg">
 
- <metadata id="imagebot_16">image/svg+xml</metadata>
- <g id="imagebot_2" label="Capa 1">
-  <rect transform="matrix(-1 0 0 1 121.529 -96.0818)" label="Capa 1" fill="none" stroke="#607276" stroke-width="1.08113" id="imagebot_15" width="58.7741" height="39.01168" x="56.81541" y="96.62237" ry="4.08072"/>
-  <rect transform="matrix(-1 0 0 1 121.529 -96.0818)" label="Capa 1" fill="none" stroke="#607276" stroke-width="1.03118" id="imagebot_14" width="51.5577" height="29.36354" x="60.42358" y="100.6676"/>
-  <path transform="matrix(-1 0 0 1 121.529 -96.0818)" label="Capa 1" fill="none" stroke="#607276" stroke-width="1.08113" stroke-miterlimit="60.9" d="M 51.1606 136.169 L 51.1606 137.639 C 51.1606 139.427 52.6119 140.879 54.441 140.879 L 117.93 140.879 C 119.759 140.879 121.244 139.427 121.244 137.639 L 121.244 136.169 L 51.1606 136.169 Z" id="imagebot_13"/>
-  <path transform="matrix(-1 0 0 1 121.529 -96.0818)" label="Capa 1" fill="#607276" d="M 50.5289 135.785 L 56.1712 132.15 L 115.929 132.15 L 121.828 135.66 L 50.5289 135.785 Z" id="imagebot_12"/>
-  <ellipse transform="matrix(-1 0 0 1 121.529 -96.0818)" label="Capa 1" fill="#607276" id="imagebot_11" cx="86.17857" cy="98.75633" rx="0.89765" ry="0.87753"/>
-  <rect transform="matrix(-1 0 0 1 121.529 -96.0818)" label="Capa 1" fill="#242830" stroke="#607276" stroke-width="1.08113" stroke-miterlimit="4" id="imagebot_10" width="32.86172" height="48.49064" x="73.58713" y="103.36821" ry="5.05111"/>
-  <rect transform="matrix(-1 0 0 1 121.529 -96.0818)" label="Capa 1" fill="#000000" fill-opacity="0" stroke="#607276" stroke-width="1.08113" stroke-miterlimit="4" id="imagebot_9" width="25.00797" height="36.58103" x="77.51402" y="108.40848" ry="0"/>
-  <rect transform="matrix(-1 0 0 1 121.529 -96.0818)" label="Capa 1" fill="#607276" id="imagebot_8" width="6.20033" height="1.8184" x="86.91797" y="147.49214"/>
-  <ellipse transform="matrix(-1 0 0 1 121.529 -96.0818)" label="Capa 1" fill="#607276" id="imagebot_7" cx="90.46197" cy="105.99403" rx="0.7783" ry="0.76085"/>
-  <rect transform="matrix(-1 0 0 1 121.529 -96.0818)" label="Capa 1" fill="#242830" stroke="#607276" stroke-width="1.08113" stroke-miterlimit="4" ry="3.24896" y="124.49715" x="65.01723" height="31.19" width="19.38501" id="imagebot_6"/>
-  <rect transform="matrix(-1 0 0 1 121.529 -96.0818)" label="Capa 1" fill="#242830" stroke="#607276" stroke-width="1.08113" stroke-miterlimit="4" ry="0" y="127.73907" x="67.33363" height="23.52955" width="14.75211" id="imagebot_5"/>
-  <rect transform="matrix(-1 0 0 1 121.529 -96.0818)" label="Capa 1" fill="#607276" stroke="#607276" y="152.87823" x="72.88097" height="1.16963" width="3.65755" id="imagebot_4"/>
-  <rect transform="matrix(-1 0 0 1 121.529 -96.0818)" label="Capa 1" fill="#607276" fill-rule="nonzero" y="135.51147" x="110.07701" height="0.60983" width="11.44454" id="imagebot_3"/>
-  <title>Capa 1</title>
+ <metadata id="imagebot_15">image/svg+xml</metadata>
+ <g label="Capa 1" id="imagebot_1">
+  <rect label="Capa 1" ry="17.48099" y="98.51779" x="-155.08235" height="167.11822" width="251.77646" id="imagebot_14" stroke-width="6" stroke="#607276" fill="none" transform="translate(0 2) matrix(-1 0 0 1 114.228 -95.8818)"/>
+  <rect label="Capa 1" y="115.01514" x="-118.14064" height="127.5712" width="223.99472" id="imagebot_13" stroke-width="6" stroke="#607276" fill="none" transform="translate(-1 0) matrix(-1 0 0 1 138.628 -95.0818)"/>
+  <path transform="translate(2 0) matrix(-1 0 0 1 126.828 56.7182)" label="Capa 1" id="imagebot_12" d="M -152.541 138.784 L -152.541 146.71 C -152.541 156.35 -146.903 164.179 -139.798 164.179 L 106.82 164.179 C 113.924 164.179 119.693 156.35 119.693 146.71 L 119.693 138.784 L -152.541 138.784 Z" stroke-miterlimit="60.9" stroke-width="6" stroke="#607276" fill="none"/>
+  <path transform="translate(5 -1) matrix(-1 0 0 1 184.908 24.6382)" stroke-width="12.5" label="Capa 1" id="imagebot_11" d="M -94.6399 170.092 L -72.609 148.108 L 160.721 148.108 L 183.754 169.336 L -94.6399 170.092 Z" fill="#607276"/>
+  <ellipse label="Capa 1" ry="2.98528" rx="3.05373" cy="100.86409" cx="84.02248" id="imagebot_10" fill="#607276" transform="translate(0.262144 1.31072) matrix(-1 0 0 1 232.09 -90.4802)"/>
+  <rect label="Capa 1" ry="19.13406" y="104.87535" x="-19.54145" height="183.68691" width="124.48315" id="imagebot_9" stroke-miterlimit="4" stroke-width="6" stroke="#607276" fill="#242830" transform="translate(1 3) matrix(-1 0 0 1 182.828 -40.0818)"/>
+  <rect label="Capa 1" ry="0" y="108.9812" x="2.44241" height="136.19437" width="93.10686" id="imagebot_8" stroke-miterlimit="4" stroke-width="5" stroke="#607276" fill-opacity="0" fill="#000000" transform="translate(3 -23) matrix(-1 0 0 1 187.628 0.1982)"/>
+  <rect label="Capa 1" y="147.49214" x="69.31486" height="6.98095" width="23.80345" id="imagebot_7" fill="#607276" transform="translate(-2 -2) matrix(-1 0 0 1 219.511 84.9502)"/>
+  <ellipse label="Capa 1" ry="3.21784" rx="3.45917" cy="108.451" cx="73.23317" id="imagebot_6" fill="#607276" transform="translate(-22 -24) matrix(-1 0 0 1 241.456 -7.29219)"/>
+  <rect label="Capa 1" id="imagebot_5" width="89.41627" height="143.86856" x="-4.26562" y="121.96954" ry="14.98632" stroke-miterlimit="4" stroke-width="6" stroke="#607276" fill="#242830" transform="translate(-34.816 -2.048) matrix(-1 0 0 1 270.977 10.2444)"/>
+  <rect label="Capa 1" id="imagebot_4" width="63.94243" height="101.9879" x="12.77411" y="106.62777" ry="0" stroke-miterlimit="4" stroke-width="5" stroke="#607276" fill="#242830" transform="translate(-34 -2) matrix(-1 0 0 1 275.624 40.3135)"/>
+  <rect label="Capa 1" id="imagebot_3" width="15.63982" height="5.00138" x="55.89875" y="152.87816" stroke="#607276" fill="#607276" transform="translate(-32 -2) matrix(-1 0 0 1 296.913 106.355)"/>
+  <title label="Capa 1"/>
  </g>
 </svg>
