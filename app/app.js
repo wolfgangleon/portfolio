@@ -44,11 +44,15 @@ $(document).ready(function(){
 
 	$('#carousel-portrait').carousel({
 		interval:4000
+	}).on('click',function(){
+		$(this).carousel('next');
 	});
 
 
 	$('#carousel-work-skills').carousel({
 		interval:5000
+	}).on('click',function(){
+		$(this).carousel('next');
 	});
 
 	//masonry for latest work --->
