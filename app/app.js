@@ -41,7 +41,13 @@ $(document).ready(function(){
 	})
 
 	// Carousel --->
-	$('#carousel-portrait, #carousel-work-skills').carousel({
+
+	$('#carousel-portrait').carousel({
+		interval:4000
+	});
+
+
+	$('#carousel-work-skills').carousel({
 		interval:5000
 	});
 
