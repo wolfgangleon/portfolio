@@ -111,21 +111,21 @@ i,h1,h2,p {
 }
 
 #portrait-thumbnail-1 {
-	background: url('https://download.unsplash.com/photo-1422479516648-9b1f0b6e8da8');
+	background: url('../img/portrait1.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
 #portrait-thumbnail-2 {
-	background: url('https://download.unsplash.com/photo-1416339684178-3a239570f315');
+	background: url('../img/portrait2.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
 #portrait-thumbnail-3 {
-	background: url('https://download.unsplash.com/uploads/14120938606568dde6e2b/c9e42240');
+	background: url('../img/portrait3.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
