@@ -74,17 +74,17 @@ i,h1,h2,p {
 	position: absolute;
 	top:-0.75em;
 	left: 1.2em;
-	font-size: 1.2em;
+	font-size: 1.5em;
 }
 
 .glyphicon  {
 	font-size: 2em;
-	color:#607276;
+	color:#ffffff;
 }
 
 .glyphicon:hover{
 	cursor:pointer;
-	color:#ffffff;
+	
 }
 
 
@@ -97,10 +97,12 @@ i,h1,h2,p {
 
 .masthead-title h1 {
 	font-size: 10em;
+	text-align: left;
 }
 
 .masthead-title h2 {
 	font-size: 3em;
+	text-align: left;
 }
 
 .masthead-title span {
@@ -109,21 +111,21 @@ i,h1,h2,p {
 }
 
 #portrait-thumbnail-1 {
-	background: url('https://unsplash.imgix.net/photo-1414490929659-9a12b7e31907?q=75&fm=jpg&s=f838066e7aa9eab9d1ccc28fd5ec9574');
+	background: url('https://download.unsplash.com/photo-1422479516648-9b1f0b6e8da8');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
 #portrait-thumbnail-2 {
-	background: url('https://unsplash.imgix.net/reserve/NxxLccbqQdGtNc7xJ43e_ancestral-home.jpg?q=75&fm=jpg&s=f20accdc67997ab19731ec0faa5ea1e7');
+	background: url('https://download.unsplash.com/photo-1416339684178-3a239570f315');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
 #portrait-thumbnail-3 {
-	background: url('https://unsplash.imgix.net/reserve/URG2BbWQQ9SAcqLuTOLp_BP7A9947.jpg?q=75&fm=jpg&s=604dc379bd8749d90ca2b9c8ec270f63');
+	background: url('https://download.unsplash.com/uploads/14120938606568dde6e2b/c9e42240');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -185,6 +187,10 @@ span {
 
 #about-me {
 	margin: 5% 25%;
+}
+
+#carousel-portrait .carousel-caption {
+	left: 0%;
 }
 
 #carousel-work-skills .carousel-inner {
