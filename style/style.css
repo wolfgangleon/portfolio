@@ -53,7 +53,7 @@ p {
 	color:#484949;
 }
 
-#contact,#header,#content{
+#header,#content{
 	text-align: center;
 }
 
@@ -169,6 +169,7 @@ i,h1,h2,p {
 	margin-bottom: 0 !important;
 }
 
+
 /*-----------------------------------------------------------------------------------------------------------------------
 													CONTENT
 -----------------------------------------------------------------------------------------------------------------------*/
@@ -220,7 +221,7 @@ span {
 }
 
 #quote {
-	margin-top: 6em;
+	margin-top: 8em;
 	padding-top: 4em;
 	padding-bottom: 4em;
 	box-shadow: 0px 2px 10px;
@@ -245,7 +246,7 @@ span {
 }
 
 #work {
-	margin-top: 6em;
+	margin-top: 8em;
 }
 
 #work h2 {
@@ -263,32 +264,90 @@ span {
 -----------------------------------------------------------------------------------------------------------------------*/
 #contact {
 	margin-top: 6em;
+	padding-top: 2em;
+	background-color: #242830;
+
 }
+
+#contact h2 {
+	padding-bottom: 0.5em;
+	text-align: center;
+	font-size: 8em;
+	text-transform: uppercase;
+	color: #607276;
+	text-shadow:0 1px 2px rgba(0,0,0,.6);
+}
+
+#contact-list {
+	padding: 2em;
+	text-align: center;
+}
+
+#contact-list li:first-child {
+	margin-left: -1em;
+	text-transform: capitalize;
+	color: #607276;
+	font-size: 3em;
+}
+
 #contact-list li {
 	display: inline;
 	margin-left: 1em;
 	font-size: 2em;
 } 
 
+
+
 #contact-list a {
 	font-size: 1.5em
 }
 
 i {
-	color:#242830;
+	color:#607276;
+}
+
+i:hover {
+	color:#FFF;
 }
 
 #go-top {
-	padding: 0.5em 0;
+	padding-left: 1em;
+	margin:1em 0 0.5em;
 	width: 100%;
-	background-color: #242830;
+	color:#607276;
+	text-align: center;
+	
 }
 
-#go-top p {
+.row {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+#go-top:hover {
+	color:#FFF;
+}
+
+#footer p {
 	display: inline;
 	position: absolute;
-	color:#607276;
+	color: #607276 !important;
 	font-size: 0.5em;
-	right: 1em;
-	bottom: 1em;
+	margin-bottom: 0 !important;
+}
+
+#contactForm {
+	padding-right: 10%;
+}
+.form-group label {
+	color: #607276;
+}
+
+.form-group #submit {
+	background-color: #2EAB96;
+	border: #2EAB98;
+}
+
+.form-group #submit:hover {
+	background-color: #3BDABF;
 }
