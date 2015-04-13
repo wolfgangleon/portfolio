@@ -170,19 +170,52 @@
 
 	<footer id='contact'>
 
-		<ul id="contact-list">
-			<li><a href="https://linkedin.com/in/wleonproduction"><i class="fa fa-linkedin-square"></i></a></li>
-			<li><a href="https://github.com/wolfgangleon"><i class="fa fa-github"></i></a></li>
-			<li><a href="https://instagram.com/wolfgangleon"><i class="fa fa-instagram"></i></a></li>
-		</ul>
+		<h2>Contact me</h2>
+
+		<div class="row">
+
+			<div id="contactForm"  class="col-md-5 col-md-offset-1">
+				<form class="form-horizontal" role="form" method="post" action="contact.php">
+				    <div class="form-group">
+				        <label for="name" class="col-sm-2 control-label">Name</label>
+				        <div class="col-sm-10">
+				            <input type="text" class="form-control" id="name" name="cf_name" placeholder="First & Last Name">      
+				        </div>
+				    </div>
+				    <div class="form-group">
+				        <label for="email" class="col-sm-2 control-label">Email</label>
+				        <div class="col-sm-10">
+				            <input type="email" class="form-control" id="email" name="cf_email" placeholder="example@email.com">    
+				        </div>
+				    </div>
+				    <div class="form-group">
+				        <label for="message" class="col-sm-2 control-label">Message</label>
+				        <div class="col-sm-10">
+				            <textarea class="form-control" rows="4" name="cf_message"></textarea>			          
+				        </div>
+				    </div>			   
+				    <div class="form-group">
+				        <div class="col-sm-10 col-sm-offset-2">
+				            <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+				        </div>
+				    </div>
+				</form> 			
+			</div>
+
+			<ul id="contact-list" class="col-md-6">
+				<li>Social media:</li>
+				<li><a href="https://linkedin.com/in/wleonproduction"><i class="fa fa-linkedin-square"></i></a></li>
+				<li><a href="https://github.com/wolfgangleon"><i class="fa fa-github"></i></a></li>
+				<li><a href="https://instagram.com/wolfgangleon"><i class="fa fa-instagram"></i></a></li>
+			</ul>	
+
+		</div>
+		
 
 		<a href="#top">
-			<div id="go-top" class="glyphicon glyphicon-chevron-up">
-				<p>All rights reserved. 2015 Wolfgang Leon</p>
-			</div>
+			<div id="go-top" class="glyphicon glyphicon-chevron-up"	></div>
 		</a>
-			
-		
+
 	</footer>	
 </body>
 </html>
