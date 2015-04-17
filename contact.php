@@ -1,31 +1,21 @@
 <?php
-	$field_name = $_POST['cf_name'];
-	$field_email = $_POST['cf_email'];
-	$field_message = $_POST['cf_message'];
-
-	$mail_to = 'wleonproduction@gmail.com';
-	$subject = 'Message from portfolio '.$field_name;
-
-	$body_message = 'From: '.$field_name."\n";
-	$body_message .= 'E-mail: '.$field_email."\n";
-	$body_message .= 'Message: '.$field_message;
-
-	$headers = 'From: '.$field_email."\r\n";
-	$headers .= 'Reply-To: '.$field_email."\r\n";
-
-	$mail_status = mail($mail_to, $subject, $body_message, $headers);
-
-	if ($mail_status) { 
-		<script language="javascript" type="text/javascript">
-			alert('Thank you for the message. We will contact you shortly.');
-			window.location = 'index.html';
-		</script>
-
-	}
-	else { 
-		<script language="javascript" type="text/javascript">
-			alert('Message failed. Please, send an email to wleonproduction@gmail.com');
-			window.location = 'index.html';
-		</script>
-	}
+    if ($_POST["submit"]) {
+        $name = $_POST['cf_name'];
+        $email = $_POST['cf_email'];
+        $message = $_POST['cf_message'];
+        $from = 'portfolio Contact Form'; 
+        $to = 'wleonproduction@gmail.com'; 
+        $subject = 'Message from portfolio form ';
+        
+        $body = "From: $name\n E-Mail: $email\n Message:\n $message";
+ 
+      
+ 
+		// If there are no errors, send the email
+		
+		    mail ($to, $subject, $body, $from);
+		    echo 'Thank You! I will be in touch';
+		   
+	
+    }
 ?>
