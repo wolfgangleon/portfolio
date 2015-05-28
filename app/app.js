@@ -59,10 +59,16 @@ $(document).ready(function(){
 	
 	container.imagesLoaded( function(){ 
 		container.masonry({
-	 		columnWidth:310,
+	 		columnWidth:410,
 	    	itemSelector: '.item',
 	    	isFitWidth: true
 		});
 	});
+
+	if ( $(window).width() < 1001 ) {
+		$('#carousel-work-skills .carousel-inner').children().removeClass('row-height');
+	}
+
+
 
 }); //End document script
